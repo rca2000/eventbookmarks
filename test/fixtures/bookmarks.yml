@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: bookmarks
+#
+#  id          :integer          not null, primary key
+#  nombre      :string(255)
+#  descripcion :string(255)
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  descripcion: MyString
+
+two:
+  nombre: MyString
+  descripcion: MyString
